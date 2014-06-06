@@ -1,0 +1,209 @@
+			body {
+
+				background-color: #fff;
+				background-position: center;
+				background-repeat: repeat;
+				background-size: cover; 
+				color: #00520c;
+				padding:20px 1.88679245%;
+				font-family: Arial, Verdana, sans-serif;
+				margin: 0 auto;
+				
+				width: 1060px;
+				}
+			
+
+			img.bannerTop {
+				background: #ffffff url("images/geracao.jpg") repeat;
+				background-size: 30%;
+				height: 200px;
+				width: 100%;
+				position: relative;
+				z-index: 9;
+				margin-top: 0;
+					}		
+			
+			nav{
+				background-color: #00520c;
+				height: 40px;
+				width: 100%;
+				border-radius:25px;
+				}
+
+			nav .wrapper{
+				position: relative;
+				}
+
+			nav .rightLinks{
+				position: absolute;
+				right: 0;
+				top: 0;
+				width: 37.7358491%; /*400px*/
+				}
+
+			nav .leftLinks{
+				position: absolute;
+				left: 0;
+				top: 0;
+				width: 37.7358491%; /*400px*/
+				}
+
+			nav a{
+				color: #ffffff;
+				text-decoration: none;
+				display: block;
+				float: left;
+				width: 50%;
+				padding-top: 11px;
+				padding-bottom: 11px;
+				text-align: center;
+				font: small-caps bold 1.2em Arial, Helvetica, sans-serif;  
+				}
+
+			nav a.active, nav a:hover{
+				background-color: #571100;
+				border-radius:25px;
+				}
+
+			img.logo{
+				width: 28.30%;  /*300px*/
+   				height: 120px; 
+   				z-index: 10;
+   				margin-left: 37.7358491%; /*400px*/
+   				position: absolute;
+   				bottom: -40px;
+   				left: 37%;
+   				margin: 0 auto;
+   				text-align: center;
+   				cursor: pointer;}
+				
+				
+			nav ul {
+				list-style: none;
+				width: 90.56%; /*960px*/
+				margin: 0 auto;
+				padding: 0; }
+			
+			h2, h3 {
+				text-align: center;
+				}
+			
+			#aboutUs {
+				width: 42.45%; /*450px*/
+				float: left;
+				}
+				
+			#aboutCompany{
+				width: 42.45%; /*450px*/
+				float: right;
+				}
+				
+			p {
+				color: #1a371a;  /*-----font color----*/
+				text-align: justify;
+				text-indent: 20px;
+				padding: 2px 0.18867925%;
+				line-height: 1.4em;
+				border-color: #faf600;
+				margin: 5px 0.47169811%;
+				display: block;
+				clear: both;
+				}
+			ul > li {
+				font-style: italic;
+					}
+			h2 + p {
+				font-weight: bold;
+					}
+					
+			a[href*="#"]{
+				font-style: italic;
+				}
+				
+			hr {
+				background: #00520c;
+				height: 5px;
+				border: none;
+				clear: both;
+				}
+				
+			.column {
+				width: 31.13%; /*330px*/
+				float: left;
+				margin: 10px 0.94339623%;
+				border:0 solid;
+				border-radius:25px;
+				border-color: #faf600;
+		
+				}
+			
+			.column:nth-child(even) {
+				background-color: hsla(129, 100%, 16%, 0.3);
+					}
+			
+			.column:nth-child(odd) {	
+				background-color: hsla(0, 100%, 16%, 0.3)
+					}
+			
+			img.Production {
+				width: 100%;
+				height: 150px;
+					}
+			
+			footer {
+				text-align: center;
+				clear: both;
+				}
+
+/* -----------------Media Query----------------*/
+			@media print {
+    				p {
+        				font-size: 1.25em;
+        				color: red;
+    				}
+				}
+
+/* Smartphones (portrait and landscape) ----------- */
+				@media only screen and (min-device-width : 320px) 
+					and (max-device-width : 480px){ 
+					body { 
+						width: 50%;
+						background: #9c9c9c;
+						float: left;
+						clear: both;
+						}
+						}
+
+
+/* iPads (portrait and landscape) ----------- */
+				@media only screen and (min-device-width : 768px) 
+					and (max-device-width : 1024px) {
+					body { 
+						width: 85%;
+						background: #9c9c9c;
+						float: left;
+						clear: both;
+						}
+						}
+
+
+/* Desktops and laptops ----------- */
+				@media only screen and (min-width : 1224px) {
+					body { 
+						width: 100%;
+						background: #fff;
+						color: #00520c;
+						}
+						}
+
+/* Large screens ----------- */
+				@media only screen and (min-width: 1824px) {
+					body { 
+						width: 120%;
+						background: #9c9c9c;
+						clear: both;
+						}
+						}
+
+
+				
